@@ -29,6 +29,7 @@
       <module>drp-ccore</module>
       <module>drpc-register</module>
       <module>drpc-transport</module>
+    <module>drpc-serialization</module>
   </modules>
 
 </project>
