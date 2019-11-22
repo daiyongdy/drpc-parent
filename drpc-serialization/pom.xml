@@ -28,6 +28,7 @@
 
     <modules>
         <module>drpc-serialization-api</module>
+        <module>drpc-serialization-java</module>
     </modules>
 
     <build>
