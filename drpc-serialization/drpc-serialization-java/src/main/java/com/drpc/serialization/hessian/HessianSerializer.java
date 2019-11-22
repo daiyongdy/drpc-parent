@@ -2,8 +2,8 @@ package com.drpc.serialization.hessian;
 
 import com.caucho.hessian.io.Hessian2Input;
 import com.caucho.hessian.io.Hessian2Output;
-import com.drpc.serialization.api.SerializerType;
-import com.drpc.serialization.api.Serializer;
+import com.drpc.serialization.SerializerType;
+import com.drpc.serialization.Serializer;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

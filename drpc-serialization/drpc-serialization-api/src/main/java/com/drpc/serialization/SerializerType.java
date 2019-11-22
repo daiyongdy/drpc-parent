@@ -1,4 +1,4 @@
-package com.drpc.serialization.api;
+package com.drpc.serialization;
 
 /**
  * Created by daiyong

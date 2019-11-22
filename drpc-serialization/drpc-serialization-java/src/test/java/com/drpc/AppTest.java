@@ -1,9 +1,10 @@
 package com.drpc;
 
+import com.drpc.serialization.Serializer;
+import com.drpc.serialization.SerializerFactory;
+import com.drpc.serialization.SerializerType;
 import com.drpc.serialization.hessian.HessianSerializer;
 import org.junit.Test;
-
-import java.io.IOException;
 
 /**
  * Unit test for simple App.
@@ -26,5 +27,11 @@ public class AppTest
         if (resultWrapper1.getException() != null) {
             throw resultWrapper1.getException();
         }
+    }
+
+    @Test
+    public void testSpi() throws Exception{
+        Serializer serializer = SerializerFactory.getSerializer(SerializerType.HESSIAN.getCode());
+        System.out.println(serializer);
     }
 }
