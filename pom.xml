@@ -57,8 +57,8 @@
       <module>drp-ccore</module>
       <module>drpc-register</module>
       <module>drpc-transport</module>
-    <module>drpc-serialization</module>
-    <module>drpc-example</module>
+      <module>drpc-serialization</module>
+      <module>drpc-example</module>
   </modules>
 
 </project>
