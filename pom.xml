@@ -54,7 +54,7 @@
   </build>
 
   <modules>
-      <module>drp-ccore</module>
+      <module>drpc-core</module>
       <module>drpc-register</module>
       <module>drpc-transport</module>
       <module>drpc-serialization</module>
