@@ -46,7 +46,7 @@ public interface Register {
     /**
      * 订阅服务
      */
-//    void subscribe(RegisterMetaData.ServiceMeta serviceMeta, NotifyListener listener);
+    void subscribe(RegisterMetaData.ServiceMeta serviceMeta, NotifyListener listener);
 
     /**
      *  查询服务
@@ -56,7 +56,7 @@ public interface Register {
     /**
      * List all consumer's info.
      */
-//    Map<ServiceMeta, Integer> consumers();
+    Map<RegisterMetaData.ServiceMeta, Integer> consumers();
 
     /**
      *  所有提供者
